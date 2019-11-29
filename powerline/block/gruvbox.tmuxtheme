@@ -14,7 +14,7 @@ set -g status "on"
 set -g status-attr "none"
 
 # Basic status bar colors
-set -g status-bg "colour237"
+set -g status-bg colour237
 
 # Left side of status bar
 set -g status-left-bg colour233
@@ -29,8 +29,8 @@ set -g status-right-length 100
 set -g status-right "#[fg=colour239,bg=colour237,nobold,nounderscore,noitalics]#[fg=colour246,bg=colour239] %Y-%m-%d %H:%M #[fg=colour210,bg=colour239,nobold,nounderscore,noitalics]#[fg=colour232,bg=colour210] #h "
 
 # Window status
-setw -g window-status-fg "colour246"
-setw -g window-status-bg "colour237"
+setw -g window-status-fg colour246
+setw -g window-status-bg colour237
 setw -g window-status-format "#[fg=colour246,bg=colour237,nobold,nounderscore,noitalics]#[default] #I #W #[fg=colour246,bg=colour237,nobold,nounderscore,noitalics]"
 setw -g window-status-current-format "#[fg=colour237,bg=colour239,nobold,nounderscore,noitalics]#[fg=colour232,bg=colour210] #I #W #F #[fg=colour246,bg=colour239,nobold,nounderscore,noitalics]"
 set -g status-left-attr none
@@ -52,23 +52,23 @@ set -g status-justify centre
 
 # Pane border
 set -g pane-border-bg default
-set -g pane-border-fg "colour239"
+set -g pane-border-fg colour239
 
 # Active pane border
 set -g pane-active-border-bg default
-set -g pane-active-border-fg "colour246"
+set -g pane-active-border-fg colour246
 
 # Pane number indicator
 
 # Clock mode
 
 # Message
-set -g message-bg "colour239"
-set -g message-fg "colour246"
+set -g message-bg colour239
+set -g message-fg colour246
 
 # Command message
-set -g message-command-bg "colour239"
-set -g message-command-fg "colour246"
+set -g message-command-bg colour239
+set -g message-command-fg colour246
 
 # Mode
 
