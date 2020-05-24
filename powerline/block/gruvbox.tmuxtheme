@@ -31,7 +31,7 @@ set -g status-right "#[fg=colour239,bg=colour237,nobold,nounderscore,noitalics]î
 # Window status
 setw -g window-status-fg colour246
 setw -g window-status-bg colour237
-setw -g window-status-format "#[fg=colour246,bg=colour237,nobold,nounderscore,noitalics]#[default] #I #W #[fg=colour246,bg=colour237,nobold,nounderscore,noitalics]"
+setw -g window-status-format "#[fg=colour246,bg=colour237,nobold,nounderscore,noitalics] #I #W #[fg=colour246,bg=colour237,nobold,nounderscore,noitalics]"
 setw -g window-status-current-format "#[fg=colour237,bg=colour239,nobold,nounderscore,noitalics]#[fg=colour232,bg=colour210] #I #W #F #[fg=colour246,bg=colour239,nobold,nounderscore,noitalics]"
 set -g status-left-attr none
 set -g status-right-attr none
